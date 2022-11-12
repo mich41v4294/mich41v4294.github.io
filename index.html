@@ -73,9 +73,7 @@
         <h1>Michal Varga</h1>
 
         <!-- Short Bio -->
-        <p>Experienced Junior Graphic Designer with over 4 years of experience in the publishing and advertising industry and passion in cars and self-driving.
-            Currently working with <a href="https://wocsor.com/" target="_blank" rel="noopener">WOCSOR</a> and <a href="https://discord.com/servers/retropilot-660951518014341124" target="_blank" rel="noopener">RetroPilot</a> on making self-driving available for the masses. <br>
-            Skilled in Digital Printing, Graphic Design, Web Design, Print Advertising, and 3D Printing.</p>
+        <p id="bio"></p>
             
         <!--
 
@@ -166,6 +164,14 @@
 
   <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script>
+    if (navigator.language == "sk") {
+      document.getElementById("bio").innerHTML = 'Experienced Junior Graphic Designer with over 4 years of experience in the publishing and advertising industry and passion in cars and self-driving. Currently working with <a href="https://wocsor.com/" target="_blank" rel="noopener">WOCSOR</a> and <a href="https://discord.com/servers/retropilot-660951518014341124" target="_blank" rel="noopener">RetroPilot</a> on making self-driving available for the masses. Skilled in Digital Printing, Graphic Design, Web Design, Print Advertising, and 3D Printing.'
+    }
+    else{
+      document.getElementById("bio").innerHTML = 'Grafický dizajnér s viac ako 4-ročnými skúsenosťami vo vydavateľskom a reklamnom priemysle a vášňou pre autá a autonómne riadenie. V súčasnosti spolupracujem s <a href="https://wocsor.com/" target="_blank" rel="noopener">WOCSOR</a> a <a href="https://discord.com/servers/retropilot-660951518014341124" target="_blank" rel="noopener">RetroPilot</a> na sprístupnení autonómneho riadenia pre masy. So znalosťami v oblasti digitálnej tlače, grafického dizajnu, webového dizajnu, tlačovej reklamy a 3D tlače. '
+    }
+  </script>
 </body>
 
 </html>
